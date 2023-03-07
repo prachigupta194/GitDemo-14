@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PhpTravels]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Signup/Login Customer Module(failed)">
+    <classes>
+      <class name="phptravels.tests.SignUpCustomerCode">
+        <methods>
+          <include name="SignUp"/>
+        </methods>
+      </class> <!-- phptravels.tests.SignUpCustomerCode -->
+    </classes>
+  </test> <!-- Signup/Login Customer Module(failed) -->
+</suite> <!-- Failed suite [PhpTravels] -->
