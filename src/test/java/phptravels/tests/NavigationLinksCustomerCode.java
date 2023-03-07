@@ -28,6 +28,7 @@ public class NavigationLinksCustomerCode extends BaseTest{
 		NavigationLinks navigationlink =  new NavigationLinks(driver);
 		navigationlink.NavigationLinkTab();
 		navigationlink.DropDown();
+		driver.quit();
 	}
 
 }
